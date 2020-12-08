@@ -114,18 +114,18 @@ body {
           justify-content: space-evenly;
 }
 
-.card-footer-social {
+.card-footer-info {
   text-align: center;
 }
 
-.card-footer-social h3 {
+.card-footer-info h3 {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-size: 2rem;
   color: #2d3248;
 }
 
-.card-footer-social p {
+.card-footer-info p {
   margin-top: 0;
   margin-bottom: 2rem;
   letter-spacing: 1px;

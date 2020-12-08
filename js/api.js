@@ -36,15 +36,13 @@ const pintarCard = (charter) => {
   clone.querySelector(".card-body-img").setAttribute("src", charter.img);
   clone.querySelector(".card-body-title").innerHTML = `${charter.nombre}`;
   clone.querySelector(".card-body-status-text").textContent = charter.status;
-  clone.querySelectorAll(".card-footer-social p")[0].textContent =
+  clone.querySelectorAll(".card-footer-info p")[0].textContent =
     charter.especie;
-  clone.querySelectorAll(".card-footer-social p")[1].textContent =
-    charter.genero;
-  clone.querySelectorAll(".card-footer-social p")[2].textContent =
+  clone.querySelectorAll(".card-footer-info p")[1].textContent = charter.genero;
+  clone.querySelectorAll(".card-footer-info p")[2].textContent =
     charter.locacion;
   fragment.appendChild(clone);
   flex.appendChild(fragment);
-  let status = document.querySelector(".card-body-status-text");
   let indicator = document.querySelector(".card-body-status-indicator");
 
   if (charter.status === "Alive") {
