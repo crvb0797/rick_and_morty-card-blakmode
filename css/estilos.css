@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Variables*/
 /* Colores  */
 /* Fuentes */
@@ -35,6 +36,7 @@ body {
   border-radius: 20px;
   overflow: hidden;
   width: 420px;
+  height: 480px;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
 }
@@ -42,7 +44,7 @@ body {
 .card-header {
   width: 100%;
   display: block;
-  border-bottom: 5px solid #e3e4e8;
+  border-bottom: 5px solid #fff;
 }
 
 .card-body {
@@ -62,7 +64,7 @@ body {
 .card-body-img {
   border: 5px solid #fff;
   border-radius: 50%;
-  margin-top: -80px;
+  margin-top: -39px;
   width: 140px;
   height: 140px;
 }
@@ -136,7 +138,7 @@ body {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #526e2dff;
   margin-bottom: 5px;
   margin-right: 8px;
 }
@@ -157,5 +159,82 @@ body {
   background-color: orange;
   margin-bottom: 5px;
   margin-right: 8px;
+}
+
+/* Estilos Botón */
+.card-buttom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-buttom-random {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 155px;
+  height: 44px;
+  margin: 7px;
+  border: 5px solid #526e2dff;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.card-buttom-random-text {
+  position: relative;
+  color: transparent;
+  background-image: -webkit-gradient(linear, left top, right top, from(#f7f7f7), color-stop(50%, #f7f7f7), color-stop(50%, #526e2dff), to(#526e2dff));
+  background-image: linear-gradient(90deg, #f7f7f7 0%, #f7f7f7 50%, #526e2dff 50%, #526e2dff 100%);
+  background-repeat: repeat;
+  background-size: 200%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-transition: background-position 300ms;
+  transition: background-position 300ms;
+}
+
+.card-buttom-random::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #526e2dff;
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+  -webkit-transform: scale3d(0, 1, 1);
+          transform: scale3d(0, 1, 1);
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+
+.card-buttom-random:hover .card-buttom-random-text {
+  background-position: 0 0;
+}
+
+.card-buttom-random:hover::before {
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -3,12 +3,13 @@
   border-radius: 20px;
   overflow: hidden;
   width: 420px;
+  height: 480px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
 
   &-header {
     width: 100%;
     display: block;
-    border-bottom: 5px solid $light-gray;
+    border-bottom: 5px solid $color-claro;
   }
 
   &-body {
@@ -20,7 +21,7 @@
     &-img {
       border: 5px solid $color-claro;
       border-radius: 50%;
-      margin-top: -80px;
+      margin-top: -39px;
       width: 140px;
       height: 140px;
     }
@@ -84,7 +85,7 @@
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  background-color: green;
+  background-color: #526e2dff;
   margin-bottom: 5px;
   margin-right: 8px;
 }
