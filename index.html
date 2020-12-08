@@ -26,7 +26,9 @@
 
   <!-- INICIO -->
   <body>
-    <main class="flex">
+    <main class="flex"></main>
+
+    <template id="card">
       <article class="card">
         <img
           src="https://cdn.shopify.com/s/files/1/2491/1072/collections/rickand_morty_1920x450_463f1e62-6259-437f-954a-1dfd8220d822_1920x450.jpg?v=1581967811"
@@ -60,13 +62,13 @@
           </div>
         </div>
         <div class="card-buttom">
-          <a class="card-buttom-random"
+          <a class="card-buttom-random" onclick="recargar()"
             ><span class="card-buttom-random-text">Nueva tarjeta</span></a
           >
         </div>
       </article>
-    </main>
-    <script src="./js/api.js"></script>
+    </template>
     <script src="./js/main.js"></script>
+    <script src="./js/api.js"></script>
   </body>
 </html>
