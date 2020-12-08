@@ -1,4 +1,4 @@
-##Vista previa 
+## Vista previa 
 ![](https://i.imgur.com/tYm1fy3.png)
 ![](https://i.imgur.com/mAGraYH.png)
 ![](https://i.imgur.com/c6YXjaH.png)
