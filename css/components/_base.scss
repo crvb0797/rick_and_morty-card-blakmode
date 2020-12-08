@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1 rem = 10 px
+}
+
+body {
+  font-family: $fuente-primary;
+  background-color: $dark-cyan;
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

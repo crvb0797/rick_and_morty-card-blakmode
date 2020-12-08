@@ -1,0 +1,161 @@
+/*Variables*/
+/* Colores  */
+/* Fuentes */
+/* Estilos base */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #19a2ae;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+/* Estilos card */
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 420px;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+}
+
+.card-header {
+  width: 100%;
+  display: block;
+  border-bottom: 5px solid #e3e4e8;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #e3e4e8;
+}
+
+.card-body-img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-top: -80px;
+  width: 140px;
+  height: 140px;
+}
+
+.card-body-title {
+  margin: 0;
+  margin-top: 2rem;
+  color: #2d3248;
+  font-size: 2rem;
+}
+
+.card-body-status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-body-status-indicator {
+  /* Estos estilos cambian por la condicional ubicada en main.js esto para indicar si el personaje sigue con vida o no */
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+
+.card-body-status-text {
+  font-size: 1.7rem;
+  color: #6a6f81;
+  margin-bottom: 2rem;
+}
+
+.card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card-footer-social {
+  text-align: center;
+}
+
+.card-footer-social h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #2d3248;
+}
+
+.card-footer-social p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  color: #6a6f81;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.verde {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: green;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+
+.rojo {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: red;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+
+.naranja {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: orange;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+/*# sourceMappingURL=estilos.css.map */
