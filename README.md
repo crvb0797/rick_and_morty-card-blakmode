@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Desafío HTML, CSS y SASS
 
 ## Objetivo
@@ -17,3 +18,7 @@
 - [Instagram](https://www.instagram.com/bluuweb_youtube)
 - [Facebook](https://www.facebook.com/bluuweb)
 - [Twitter](https://twitter.com/bluuweb)
+=======
+# rick_and_morty-card-blakmode
+Proyecto de practica para consumir API, utilizando SASS y JS Vanilla
+>>>>>>> 85d17ef381525d96903b9a1dc32813336f8cf391
